@@ -17,7 +17,7 @@ import SettingsPage from './pages/SettingsPage'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Script2Screen">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<LoginPage />} />
